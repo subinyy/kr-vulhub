@@ -1,0 +1,7 @@
+version: '2'
+services:
+  mysql-cve:
+    build: .
+    container_name: mysql-cve
+    ports:
+      - "3306:3306"
